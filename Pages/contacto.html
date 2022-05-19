@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="../Images/ID-icon.ico">
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <header id="header">
+    
+        <div class="navBar">
+            <div class="imagelogo"><img src="../Images/Logo-header.png" alt="Logo ID" width="178" height="55">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <a href="../index.html">
+                        <li>HOME</li>
+                    </a>
+                    <a href="../Pages/nosotrxs.html">
+                        <li>NOSOTRXS</li>
+                    </a>
+                    <a href="../Pages/cursos.html">
+                        <li>CURSOS</li>
+                    </a>
+                    <!--<ul>
+                    <a href="#"><li>ABC DIGITAL Y AUTONOMÍA</li></a>
+                    <a href="#"><li>ABC DIGITAL PARA EMPRENDER</li></a>
+                    <a href="#"><li>ABC DIGITAL PARA BUSCAR TRABAJO</li></a>
+                  </ul> -->
+                    <a href="../Pages/defensoria-digital.html">
+                        <li>DEFENSORÍA DIGITAL</li>
+                    </a>
+                        <li>CONTACTO</li>
+                </ul>
+            </nav>
+        </div>
+    
+    
+    
+    
+    </header>
+
+    <hr>
+
+    <main>
+
+        <h1>CONTACTO</h1>
+
+        <form>
+
+            <fieldset>
+
+                <legend>Formulario de contacto</legend>
+
+
+                <div>
+                    <label for="name">Nombre</label><br>
+                    <input id="name" type="text" placeholder="Ingresa tu nombre">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Correo electrónico</label><br>
+                    <input id="email" type="email" placeholder="Ingresa tu correo electónico" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="genero">Genero</label><br><br>
+                    <input id="genero" type="radio" name="genero" value="masculino">Masculino
+                    <input id="genero" type="radio" name="genero" value="femenino">Femenino
+                    <input id="genero" type="radio" name="genero" value="">Otro
+                </div>
+                <br>
+                <div>
+                    <label for="dispositivos">¿Qué dispositivos usas?</label><br><br>
+                    <input id="dispositivos" type="checkbox" name="celular">Celular
+                    <input id="dispositivos" type="checkbox" name="pc">PC
+                    <input id="dispositivos" type="checkbox" name="tablet">Tablet
+                </div>
+                <br>
+
+                <div>
+                    <label for="nacionalidad">Nacionalidad</label>
+                    <select name="nacionalidad" id="nacionalidad">
+                        <option value="arg">Argentina</option>
+                        <option value="chi">Chile</option>
+                        <option value="col">Colombia</option>
+                        <option value="uru">Uruguay</option>
+                        <option value="ven">Venezuela</option>
+                        <option value="otr">Otra</option>
+                    </select>
+                </div>
+                
+                <br>
+
+                <div>
+                    <textarea name="mensaje" id="mensaje" placeholder="Escribinos un mensaje acá." cols="40"
+                        rows="10"></textarea>
+                </div>
+                <br>
+
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar datos">
+                </div>
+
+
+            </fieldset>
+
+        </form>
+    </main>
+
+
+    <footer>
+  
+        <div class="footer">
+          <div class="datosFooter">
+            <div class="footerContacto">
+              <p class="tituloFooter">CONTACTO</p>
+              <ul>
+                <li>El Mirasol 163</li>
+                <li>Liniers (Comuna 9)</li>
+                <li>CABA</li>
+                <li><strong>Telefono: </strong>011-1550570069</li>
+                <li><strong>E-mail: </strong>somosinmigrantesdigitales@gmail.com</li>
+              </ul>
+            </div>
+            <div class="footerRedes">
+              <p class="tituloFooter">NUESTRAS REDES</p>
+              <a href="https://www.facebook.com/InmigrantesDigitalesID"><img src="../Images/facebook.png" alt="Facebook"
+                  width="32" height="32"></a>
+              <a href="https://www.instagram.com/inmigrantes.digitales/"><img src="../Images/instagram.png" alt="Instagram"
+                  width="32" height="32"></a>
+              <a href="https://twitter.com/InmigrantesD"><img src="../Images/Twitter.png" alt="Twitter" width="32"
+                  height="32"></a>
+              <a href="https://www.linkedin.com/company/inmigrantesdigitales/"><img src="../Images/linkedin.png"
+                  alt="Linkedin" width="32" height="32"></a>
+              <form action="">
+                <label for="email">
+                  <p class="tituloFooter">SUSCRIBÍTE A NUESTRO NEWSLETTER</p>
+                </label>
+                <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico">
+                <input type="submit" value="enviar">
+              </form>
+              <a href="#header">Ir arriba</a>
+            </div>
+          </div>
+      
+      
+          <h4 class="copyright">© 2022 Inmigrantes Digitales</h4>
+        </div>
+      
+      
+      
+      </footer>
+
+
+</body>
+
+</html>

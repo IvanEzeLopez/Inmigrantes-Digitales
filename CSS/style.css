@@ -1,0 +1,475 @@
+*{  margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 6fr auto;
+    grid-auto-flow: row;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+
+}
+
+header{
+    height: 70px;
+    grid-area: header;
+}
+
+main{
+    grid-area: main;
+}
+
+h1{
+    width: 589px;
+    height: auto;
+    color: #78448f;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+
+
+}
+
+h3{
+    color: #78448f;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+h4{
+    text-align: center;
+    margin: 15px;
+    font-size: large;
+    letter-spacing: 1px;
+
+}
+
+h5{
+    color: #78448f;
+    font-size: 24px;
+    text-align: left;
+}
+
+.header{
+    position: sticky;
+
+}
+
+.navBar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    /* box-shadow: 1px 1px 15px; */
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.15);
+
+
+}
+
+
+
+nav ul{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.menu li{
+    text-align: center;
+    margin: 15px;
+    padding: 0.3rem;
+}
+
+
+.sectionSomos{
+    width: 100%;
+    min-height: 515px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 20px;
+    gap: 5%;
+
+}
+
+.textoSomos{
+    margin: 3rem;
+    text-align: center;
+    width: 562px;
+    height: 252px
+    
+    
+
+}
+
+.imageSomos{
+
+    width: 423px;
+    height: auto;
+
+
+
+}
+
+.buttonCursos{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #78448f;
+    color: white;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 40px;
+    letter-spacing: 3px;
+    border-radius: 15px;
+
+}
+
+.buttonCursos:hover{
+    background-color: #5b9d94;
+}
+
+.sectionTransformamos{
+    width: 100%;
+    min-height: 530px;
+    background-image: linear-gradient(to right,#5b9d94,#99e4db);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+
+.imgTransformamos{
+    width: 597px;
+    height: 283px;
+    
+
+}
+
+.misionVision{
+    width: 480px;
+
+    
+}
+
+.misionVision img{
+   
+    align-items: center;
+    margin-left: 200px;
+}
+
+
+.misionVision p{
+    width: 480px;
+    text-align: justify;
+    margin-bottom: 25px;
+    font-size: large;
+
+
+
+}
+
+
+
+.nuestrosCursos{
+    width: 100%;
+    height: 810px;
+    padding: 40px;
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsCursos{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+
+}
+
+.cardsCursos p{
+    text-align: center;
+/*     color: white; */
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.caja{
+    width: 355px;
+    height: 550px;
+    margin: 10px;
+    padding: 20px;
+/*     background-image: linear-gradient(to right,#78448f, #9451b1); */
+       border-radius: 20px;
+/*     border-style: solid; */
+/*     border-color: rgb(17, 10, 10); */
+/*     border-width: thin; */
+    text-align: center;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
+
+}
+
+.imgCursos img{
+    margin-left: 2.5rem;
+    
+}
+
+
+
+.tituloCurso{
+    margin: 1rem;
+    font-weight: 700;
+    font-size: 1.17rem;
+    color: #78448f;
+}
+
+.tiempoCursos{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.06rem;
+    justify-content: start;
+    margin-top: .5rem;
+    
+    
+
+}
+
+.tiempoCursos p{
+    margin-left: 0.6rem;
+    font-weight: 300;
+    font-size: 1.15rem;
+    
+}
+
+.parrafoCursos p{
+    margin-top: 1rem;
+    width: auto;
+    text-align: start;
+    font-weight: 400;
+    
+}
+
+.botonVerCurso{
+    width: auto;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #78448f;
+    color: white;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    border-radius: 15px;
+}
+
+.defensoria{
+    width: 100%;
+    min-height: 440px;
+    padding: 40px;
+    background-image: linear-gradient(to right,#5b9d94,#99e4db);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.defP1{
+    margin: 10px;
+    width: 657px;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.defP2{
+    width: 657px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.defP3{
+    width: 657px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+.buttonAnotarme{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #78448f;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 25px;
+    letter-spacing: 3px;
+    border-radius: 15px;
+
+}
+
+.buttonAnotarme:hover{
+    background-color: #5b9d94;
+}
+
+.testimonios{
+    width: 100%;
+/*     height: 600px; */
+
+    padding: 40px;
+}
+.cardsTestimonios{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.cajaT{
+    width: 372px;
+    height: 320px;
+    margin: 15px;
+    padding: 1rem;
+/*     border-style: solid;
+    border-color: black;
+    border-style: solid;
+    border-width: thin; */
+    border-radius: 15px;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
+ 
+
+}
+
+.perfil{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 90%;
+    margin-left: 10px;
+    align-items: center; 
+
+
+
+}
+
+.extracto{
+    padding: 15px;
+    width: auto;
+}
+
+.extracto img{
+    width: 27px;
+    height: 27px;
+   
+}
+
+.titulosPerfil{
+    padding: 1rem;
+}
+
+.confian{
+    margin: 1em;
+    width: 100%;
+    min-height: 300px;
+    padding: 40px;
+}
+
+.confianLogos{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer{
+    width: 100%;
+    padding: 15px;
+    background-image: linear-gradient(to right,#78448f, #9451b1);
+    color: white;
+    grid-area: footer;
+
+
+}
+
+.datosFooter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+.tituloFooter{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.copyright{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.construccion{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
