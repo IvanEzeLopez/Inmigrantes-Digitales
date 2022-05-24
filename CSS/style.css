@@ -26,6 +26,7 @@ body{
 header{
     height: 70px;
     grid-area: header;
+    
 }
 
 main{
@@ -36,7 +37,7 @@ h1{
     width: 589px;
     height: auto;
     color: #78448f;
-    font-size: 38px;
+    font-size: 2.3rem;
     text-align: center;
     margin-bottom: 30px;
 
@@ -47,14 +48,14 @@ h1{
 
 h3{
     color: #78448f;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
 
 }
 
 h4{
     text-align: center;
-    margin: 15px;
+    margin: 1rem;
     font-size: large;
     letter-spacing: 1px;
 
@@ -62,7 +63,7 @@ h4{
 
 h5{
     color: #78448f;
-    font-size: 24px;
+    font-size: 2rem;
     text-align: left;
 }
 
@@ -119,7 +120,7 @@ nav ul{
 }
 
 .textoSomos{
-    margin: 3rem;
+    margin-top: 5rem;
     text-align: center;
     width: 562px;
     height: 252px
@@ -166,6 +167,9 @@ nav ul{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    background: #fff fixed no-repeat 50% 30%;
+    background-size: cover;
+    background-image: url(../Images/img-transformamos.png)
 
     
 }
@@ -179,6 +183,7 @@ nav ul{
 
 .misionVision{
     width: 480px;
+    color: white;
 
     
 }
@@ -307,17 +312,22 @@ nav ul{
     width: 100%;
     min-height: 440px;
     padding: 40px;
-    background-image: linear-gradient(to right,#5b9d94,#99e4db);
+    background-image: linear-gradient(to right,#82d6cb,#7cb8b1);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(50, 0, 0, 0.30);
+    letter-spacing: 1px;
+    line-height: 2rem;
+    
 
 }
 
 .defP1{
-    margin: 10px;
+    margin-bottom: 1.7rem;
     width: 657px;
     height: auto;
     text-align: center;
@@ -330,14 +340,15 @@ nav ul{
     width: 657px;
     text-align: center;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.45rem;
 }
 
 .defP3{
     width: 657px;
     text-align: center;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.45rem;
+   
 }
 .buttonAnotarme{
     width: 400px;
@@ -356,9 +367,9 @@ nav ul{
 
 }
 
-.buttonAnotarme:hover{
+/* .buttonAnotarme:hover{
     background-color: #5b9d94;
-}
+} */
 
 .testimonios{
     width: 100%;
@@ -380,10 +391,6 @@ nav ul{
     height: 320px;
     margin: 15px;
     padding: 1rem;
-/*     border-style: solid;
-    border-color: black;
-    border-style: solid;
-    border-width: thin; */
     border-radius: 15px;
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
  
@@ -433,12 +440,17 @@ nav ul{
     align-items: center;
 }
 
+footer{
+    grid-area: footer;
+}
+
 .footer{
-    width: 100%;
+
+    min-width: 100%; 
     padding: 15px;
     background-image: linear-gradient(to right,#78448f, #9451b1);
     color: white;
-    grid-area: footer;
+
 
 
 }
@@ -471,3 +483,228 @@ nav ul{
     margin-right: auto;
     width: 50%;
 }
+
+/* Defensoría Digital */
+
+.imgDefensoria{
+
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.tituloDefensoria{
+    width: 100%;
+    margin-top: 2rem;
+    color: #78448f;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.gridDefensoria{
+    margin-top: 6rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .5fr 1fr .5fr .5fr;
+    grid-template-areas: 
+    "fraseDefensoria fraseDefensoria"
+    "videoLidia consulta"
+    "llamanos llamanos"
+    "footer footer";
+    gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .gridDefensoria{
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr 1fr 1fr .3fr .5fr;
+        grid-template-areas: 
+        "fraseDefensoria"
+        "videoLidia"
+        "consulta"
+        "llamanos"
+        "footer";
+    }
+
+
+    .llamanos{
+   
+        display: flex;
+        flex-direction: column;
+
+    }
+    .imgDefensoria{
+
+        margin-top: 6rem;
+        text-align: center;
+    }
+
+
+        
+}
+
+@media screen and (max-width: 320px) {
+    .gridDefensoria{
+        grid-template-columns: 1fr;
+        grid-template-rows: .5fr 1fr 1fr .3fr .5fr;
+        grid-template-areas: 
+        "fraseDefensoria"
+        "videoLidia"
+        "consulta"
+        "llamanos"
+        "footer";
+    }
+
+    .consulta p{
+        font-size: 1.8rem;
+    }
+
+    .consulta label{
+
+        font-size: 1.7rem;
+    }
+
+    .consulta input{
+  
+        font-size: 1.8rem;
+    }
+
+    .edad{
+        
+        font-size: 1.25rem;
+    }
+
+    .llamanos{
+        
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+
+        
+}
+
+
+
+.fraseDefensoria{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 2rem;
+    background-color: #78448f;
+    grid-area: fraseDefensoria;
+    
+}
+
+.fraseDefensoria p{
+    line-height: 4rem;
+    font-size: 1.7rem;
+    color: white;
+
+}
+
+.videoLidia{
+    max-width: 624px;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
+    background-color: #f8ceec;
+    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+    
+    line-height: 1.2rem;
+    grid-area: videoLidia;
+
+}
+
+.copyLidia{
+    font-weight: 800;
+    text-align: center;
+}
+
+
+.videoLidia iframe{
+    margin: 1rem;
+   align-content: center;
+   border-radius: 8px;
+}
+
+.videoLidia img{
+    margin-top: .5rem;
+    width: 24px;
+    height: 24px;
+}
+
+
+.consulta{
+    grid-area: consulta;
+    height: auto;
+    padding: 1rem;
+    
+
+
+}
+
+.formConsulta{
+    margin: auto;
+    max-width: 510px;
+    line-height: 3rem;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #e8effa 0%, #f5f7fa 74%);
+}
+
+.tituloForm{
+    font-weight: 900;
+    letter-spacing: .1rem;
+    color: #78448f;
+    
+
+}
+
+label{
+    margin: .4rem;
+}
+
+input{
+    margin: .5rem;
+}
+
+.llamanos{
+    margin: auto;
+    display: flex;
+    grid-area: llamanos;
+    justify-content: space-evenly;
+    text-align: center;
+    align-content: center;
+    gap: 4rem;
+}
+
+.textoLlamanos{
+    margin: auto;
+    width: 589px;
+    height: auto;
+    color: #78448f;
+    font-size: 2.7rem;
+    text-align: center;
+    font-weight: 800;
+
+
+}
+
+.imgLlamanos{
+    margin-top: auto;
+}
+
+
