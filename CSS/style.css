@@ -7,27 +7,24 @@
 }
 
 body{
+
     font-family: 'Fira Sans', sans-serif;
+    background-color: #f8f8f9;
+
 
 }
 
 .contenedor{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 6fr auto;
-    grid-auto-flow: row;
+    grid-template-rows: 4.3rem auto auto; 
     grid-template-areas: 
-    "header"
+    "navBar"
     "main"
     "footer";
 
 }
 
-header{
-    height: 70px;
-    grid-area: header;
-    
-}
 
 main{
     grid-area: main;
@@ -68,7 +65,8 @@ h5{
 }
 
 .header{
-    position: sticky;
+    position: fixed;
+ 
 
 }
 
@@ -82,8 +80,8 @@ h5{
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    /* box-shadow: 1px 1px 15px; */
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.15);
+    grid-area: navBar;
 
 
 }
@@ -107,9 +105,10 @@ nav ul{
 
 
 .sectionSomos{
+    background-color: white;
     width: 100%;
     min-height: 515px;
-    margin-top: 45px;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -120,7 +119,7 @@ nav ul{
 }
 
 .textoSomos{
-    margin-top: 5rem;
+    margin-top: 6rem;
     text-align: center;
     width: 562px;
     height: 252px
@@ -130,7 +129,7 @@ nav ul{
 }
 
 .imageSomos{
-    margin-top: 1rem;
+    margin-top: 3.3rem;
     width: 423px;
     height: auto;
 
@@ -158,6 +157,22 @@ nav ul{
     background-color: #5b9d94;
 }
 
+
+@media screen and (max-width: 768px) {
+    .imageSomos{
+        margin: 6rem;
+    }
+       
+}
+
+
+
+
+
+
+
+
+
 .sectionTransformamos{
     width: 100%;
     min-height: 530px;
@@ -180,7 +195,7 @@ nav ul{
     
 
 }
-
+/* 
 .misionVision{
     width: 480px;
     color: white;
@@ -205,7 +220,7 @@ nav ul{
 
 }
 
-
+ */
 
 .nuestrosCursos{
     width: 100%;
@@ -237,15 +252,12 @@ nav ul{
 }
 
 .caja{
+    background-color: white;
     width: 355px;
     height: 550px;
     margin: 10px;
     padding: 20px;
-/*     background-image: linear-gradient(to right,#78448f, #9451b1); */
-       border-radius: 20px;
-/*     border-style: solid; */
-/*     border-color: rgb(17, 10, 10); */
-/*     border-width: thin; */
+    border-radius: 20px;
     text-align: center;
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
 
@@ -316,12 +328,14 @@ nav ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     color: white;
     text-shadow: 0px 4px 4px rgba(50, 0, 0, 0.30);
     letter-spacing: 1px;
     line-height: 2rem;
+    gap: 5rem;
+
     
 
 }
@@ -367,9 +381,41 @@ nav ul{
 
 }
 
+
+
 /* .buttonAnotarme:hover{
     background-color: #5b9d94;
 } */
+
+
+@media screen and (max-width: 320px) {
+
+    .defensoria{
+        gap: 2rem;
+    }
+    .defP1{
+
+        
+        font-size: 2.5rem;
+        line-height: 5rem;
+    }
+
+    .defP2{
+
+        
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    .defP3{
+
+        
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+    
+       
+}
 
 .testimonios{
     width: 100%;
@@ -393,6 +439,7 @@ nav ul{
     padding: 1rem;
     border-radius: 15px;
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
+    background-color: white;
  
 
 }
@@ -438,6 +485,19 @@ nav ul{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .confianLogos{
+        
+        flex-direction: column;
+    }
+
+    
+       
 }
 
 footer{
@@ -475,6 +535,17 @@ footer{
 .copyright{
     margin-top: 100px;
     text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+
+    .datosFooter{
+        
+        flex-direction: column;
+    }
+
+    
+       
 }
 
 .construccion{
