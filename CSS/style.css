@@ -30,6 +30,8 @@ main{
     grid-area: main;
 }
 
+
+
 h1{
     width: 589px;
     height: auto;
@@ -103,6 +105,7 @@ nav ul{
     padding: 0.3rem;
 }
 
+/* SOMOS INMIGRANTES DIGITALES */
 
 .sectionSomos{
     background-color: white;
@@ -222,6 +225,8 @@ nav ul{
 
  */
 
+/*NUESTROS CURSOS */
+
 .nuestrosCursos{
     width: 100%;
     min-height: 810px;
@@ -320,6 +325,8 @@ nav ul{
     border-radius: 15px;
 }
 
+/* CENTRO DE CONTACTO PERSONALIZADO Y GRATUITO PARA PERSONAS MAYORES */
+
 .defensoria{
     width: 100%;
     min-height: 440px;
@@ -417,11 +424,16 @@ nav ul{
        
 }
 
+/* ELLOS YA GANARON AUTONOMÍA GRACIAS A INMIGRANTES DIGITALES*/
+
+
 .testimonios{
     width: 100%;
     min-height: 400px;
     padding: 35px;
 }
+
+
 .cardsTestimonios{
     width: 100%;
     margin: 1.3rem;
@@ -470,6 +482,9 @@ nav ul{
 .titulosPerfil{
     padding: 1rem;
 }
+
+/* CONFIAN EN NOSOTROS*/
+
 
 .confian{
     width: 100%;
@@ -559,7 +574,7 @@ footer{
 
 .imgDefensoria{
 
-    margin-top: 3rem;
+    margin-top: 7rem;
     text-align: center;
 }
 
