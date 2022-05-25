@@ -8,27 +8,15 @@
 
 body{
 
+    
     font-family: 'Fira Sans', sans-serif;
     background-color: #f8f8f9;
 
 
 }
 
-.contenedor{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 4.3rem auto auto; 
-    grid-template-areas: 
-    "navBar"
-    "main"
-    "footer";
-
-}
 
 
-main{
-    grid-area: main;
-}
 
 
 
@@ -83,7 +71,7 @@ h5{
     align-items: center;
     background-color: white;
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.15);
-    grid-area: navBar;
+
 
 
 }
@@ -516,7 +504,7 @@ nav ul{
 }
 
 footer{
-    grid-area: footer;
+    /* grid-area: footer; */
 }
 
 .footer{
@@ -534,8 +522,8 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
+/*     align-items: center; */
     line-height: 1.5rem;
 }
 
