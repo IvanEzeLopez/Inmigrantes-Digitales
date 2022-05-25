@@ -504,7 +504,7 @@ nav ul{
 }
 
 footer{
-    /* grid-area: footer; */
+    grid-area: footer;
 }
 
 .footer{
