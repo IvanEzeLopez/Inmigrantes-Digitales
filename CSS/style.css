@@ -243,8 +243,7 @@ nav ul{
 
 .caja{
     background-color: white;
-    width: 355px;
-    height: 550px;
+    width:355px;
     margin: 10px;
     padding: 20px;
     border-radius: 20px;
@@ -252,6 +251,8 @@ nav ul{
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
 
 }
+
+
 
 .imgCursos img{
     margin-left: 2.5rem;
@@ -310,6 +311,18 @@ nav ul{
     border-radius: 15px;
 }
 
+@media screen and (max-width: 320px) {
+    .caja{
+        
+        width: 300px;
+        
+   
+    
+    }
+
+}
+
+
 /* CENTRO DE CONTACTO PERSONALIZADO Y GRATUITO PARA PERSONAS MAYORES */
 
 .defensoria{
@@ -333,7 +346,7 @@ nav ul{
 }
 
 .defensoria img{
-    width: 45%;
+    max-width: 550px;
     align-items: center;
 }
 
