@@ -1,3 +1,4 @@
+
 *{  margin: 0;
     padding: 0;
     list-style: none;
@@ -11,12 +12,19 @@ body{
     
     font-family: 'Fira Sans', sans-serif;
     background-color: #f8f8f9;
-
-
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+ 
+   
+    
 }
 
-
-
+main{
+    margin-top: 4rem;
+}
 
 
 
@@ -54,11 +62,9 @@ h5{
     text-align: left;
 }
 
-.header{
-    position: fixed;
- 
 
-}
+
+
 
 .navBar{
     width: 100%;
@@ -97,8 +103,7 @@ nav ul{
 
 .sectionSomos{
     background-color: white;
-    width: 100%;
-    min-height: 515px;
+    min-height: 570px;
 
     display: flex;
     flex-direction: row;
@@ -109,18 +114,21 @@ nav ul{
 
 }
 
+
+
 .textoSomos{
     margin-top: 6rem;
-    text-align: center;
-    width: 562px;
-    height: 252px
-    
-    
+}
 
+.textoSomos p{
+    margin: auto;
+    text-align: center;
+    max-width: 500px;
+    max-height: 252px; 
 }
 
 .imageSomos{
-    margin-top: 3.3rem;
+    margin-top: 4.6rem;
     width: 423px;
     height: auto;
 
@@ -129,7 +137,7 @@ nav ul{
 }
 
 .buttonCursos{
-    width: 400px;
+    max-width: 400px;
     height: 70px;
     display: flex;
     align-items: center;
@@ -150,15 +158,11 @@ nav ul{
 
 
 @media screen and (max-width: 768px) {
-    .imageSomos{
+/*     .imageSomos{
         margin: 6rem;
-    }
+    } */
        
 }
-
-
-
-
 
 
 
@@ -184,33 +188,26 @@ nav ul{
     width: 597px;
     height: 283px;
     
+    
 
 }
 /* 
 .misionVision{
     width: 480px;
     color: white;
-
     
 }
-
 .misionVision img{
    
     align-items: center;
     margin-left: 200px;
 }
-
-
 .misionVision p{
     width: 480px;
     text-align: justify;
     margin-bottom: 25px;
     font-size: large;
-
-
-
 }
-
  */
 
 /*NUESTROS CURSOS */
@@ -335,13 +332,27 @@ nav ul{
 
 }
 
+.defensoria img{
+    width: 45%;
+    align-items: center;
+}
+
+.textoDefensoria{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
 .defP1{
     margin-bottom: 1.7rem;
-    width: 657px;
+    max-width: 657px;
     height: auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: 700;
+    
 
 }
 
@@ -358,7 +369,7 @@ nav ul{
     font-weight: 600;
     font-size: 1.45rem;
    
-}
+} 
 .buttonAnotarme{
     width: 400px;
     height: 70px;
@@ -384,29 +395,46 @@ nav ul{
 
 
 @media screen and (max-width: 320px) {
+    body{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
 
+
+
+    h1{
+        font-size: smaller;
+    }
     .defensoria{
+        width: 320;
         gap: 2rem;
+    }
+
+    .defensoria img{
+        width: 300px;
     }
     .defP1{
 
         
-        font-size: 2.5rem;
-        line-height: 5rem;
+        width: 100%;   
+        font-size: 2rem;
+        line-height: 3rem;
+        
     }
 
     .defP2{
-
-        
-        font-size: 4rem;
-        line-height: 5rem;
+        width: 100%;   
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-bottom: 1rem;
     }
 
     .defP3{
 
-        
-        font-size: 4rem;
-        line-height: 5rem;
+        width: 100%;   
+        font-size: 2rem;
+        line-height: 3rem;
     }
     
        
@@ -495,9 +523,11 @@ nav ul{
 @media screen and (max-width: 768px) {
 
     .confianLogos{
-        
+        display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
+
 
     
        
@@ -505,6 +535,7 @@ nav ul{
 
 footer{
     grid-area: footer;
+    
 }
 
 .footer{
@@ -519,11 +550,12 @@ footer{
 }
 
 .datosFooter{
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-/*     align-items: center; */
+    align-items: center;
     line-height: 1.5rem;
 }
 
@@ -540,16 +572,21 @@ footer{
     text-align: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
 
     .datosFooter{
-        
+        display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        line-height: 2rem;
     }
+
 
     
        
 }
+
+
 
 .construccion{
     display: block;
@@ -774,11 +811,8 @@ input{
     text-align: center;
     font-weight: 800;
 
-
 }
 
 .imgLlamanos{
     margin-top: auto;
 }
-
-
