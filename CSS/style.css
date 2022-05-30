@@ -1,4 +1,5 @@
 
+
 *{  margin: 0;
     padding: 0;
     list-style: none;
@@ -9,28 +10,28 @@
 
 body{
 
-    min-width: 100% ;
+    width: 100%;
     font-family: 'Fira Sans', sans-serif;
     background-color: #f8f8f9;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     
-    
- 
-   
-    
+}
+
+header{
+    max-width: 100%;
 }
 
 main{
     margin-top: 4rem;
+    max-width: 100%;
 }
 
 
 
-h1{
-    width: 589px;
-    height: auto;
+h1{  
+    
     color: #78448f;
     font-size: 2.3rem;
     text-align: center;
@@ -61,8 +62,6 @@ h5{
     font-size: 2rem;
     text-align: left;
 }
-
-
 
 
 
@@ -102,6 +101,8 @@ nav ul{
 /* SOMOS INMIGRANTES DIGITALES */
 
 .sectionSomos{
+
+    max-width: 100%;
     background-color: white;
     min-height: 570px;
 
@@ -127,9 +128,10 @@ nav ul{
     max-height: 252px; 
 }
 
-.imageSomos{
-    margin-top: 4.6rem;
-    width: 423px;
+
+.imageSomos img{
+    margin-top: 4rem;
+    max-width: 100%;
     height: auto;
 
 
@@ -152,9 +154,19 @@ nav ul{
 
 }
 
+@media screen and (max-width: 320px) {
+    .buttonCursos{
+        max-width: 250px;
+
+    
+    }
+    }
+
 .buttonCursos:hover{
     background-color: #5b9d94;
 }
+
+
 
 
 @media screen and (max-width: 768px) {
@@ -185,8 +197,8 @@ nav ul{
 }
 
 .imgTransformamos{
-    width: 597px;
-    height: 283px;
+    max-width: 90%;
+    height: auto;
     
     
 
@@ -215,14 +227,14 @@ nav ul{
 .nuestrosCursos{
     width: 100%;
     min-height: 810px;
-    padding: 40px;
+    
     margin-top: auto;
     align-items: center;
     justify-content: center;
 }
 
 .cardsCursos{
-    width: 100%;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -326,7 +338,7 @@ nav ul{
 /* CENTRO DE CONTACTO PERSONALIZADO Y GRATUITO PARA PERSONAS MAYORES */
 
 .defensoria{
-    width: 100%;
+    max-width: 100%;
     min-height: 440px;
     padding: 40px;
     background-image: linear-gradient(to right,#82d6cb,#7cb8b1);
@@ -339,18 +351,19 @@ nav ul{
     text-shadow: 0px 4px 4px rgba(50, 0, 0, 0.30);
     letter-spacing: 1px;
     line-height: 2rem;
-    gap: 5rem;
+    gap: 2rem;
 
     
 
 }
 
 .defensoria img{
-    max-width: 550px;
+    max-width: 100%;
     align-items: center;
 }
 
 .textoDefensoria{
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -370,21 +383,21 @@ nav ul{
 }
 
 .defP2{
-    width: 657px;
+    max-width: 657px;
     text-align: center;
     font-weight: 600;
     font-size: 1.45rem;
 }
 
 .defP3{
-    width: 657px;
+    max-width: 657px;
     text-align: center;
     font-weight: 600;
     font-size: 1.45rem;
    
 } 
 .buttonAnotarme{
-    width: 400px;
+    width: 250px;
     height: 70px;
     display: flex;
     align-items: center;
@@ -408,18 +421,18 @@ nav ul{
 
 
 @media screen and (max-width: 320px) {
-    body{
-        margin: auto;
-        display: flex;
-        flex-direction: column;
+
+    
+    .buttonAnotarme{
+        max-width: 250px;
+
+
+    
     }
 
 
 
-    h1{
-        font-size: smaller;
-    }
-    .defensoria{
+/*     .defensoria{
         width: 320;
         gap: 2rem;
     }
@@ -449,7 +462,7 @@ nav ul{
         font-size: 2rem;
         line-height: 3rem;
     }
-    
+     */
        
 }
 
@@ -459,12 +472,12 @@ nav ul{
 .testimonios{
     width: 100%;
     min-height: 400px;
-    padding: 35px;
+    
 }
 
 
 .cardsTestimonios{
-    width: 100%;
+    width: 88%;
     margin: 1.3rem;
     display: flex;
     flex-direction: row;
@@ -475,7 +488,7 @@ nav ul{
 }
 .cajaT{
     width: 372px;
-    height: 320px;
+    height: fit-content;
     margin: 15px;
     padding: 1rem;
     border-radius: 15px;
@@ -592,11 +605,26 @@ footer{
         flex-direction: column;
         flex-wrap: wrap;
         line-height: 2rem;
+    } 
+       
+}
+
+
+@media screen and (max-width: 320px) {
+    
+    .sectionTransformamos{
+        min-height: 300px;
+    }
+   
+    .imgTransformamos{
+        
+        max-width: 90%;
+        height: auto;
+        
+   
+    
     }
 
-
-    
-       
 }
 
 
