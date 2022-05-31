@@ -1,5 +1,5 @@
 
-adsdsdsdadsdsgit
+
 *{  margin: 0;
     padding: 0;
     list-style: none;
@@ -76,6 +76,7 @@ h5{
     align-items: center;
     background-color: white;
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.15);
+    z-index: 7;
 
 
 
@@ -97,6 +98,11 @@ nav ul{
     margin: 15px;
     padding: 0.3rem;
 }
+
+li:hover{
+    color: #5b9d94;
+}
+
 
 /* SOMOS INMIGRANTES DIGITALES */
 
@@ -145,12 +151,14 @@ nav ul{
     align-items: center;
     justify-content: center;
     background-color: #78448f;
+    transition: background-color .3s;
     color: white;
     font-weight: 700;
     margin: auto;
     margin-top: 40px;
     letter-spacing: 3px;
     border-radius: 15px;
+
 
 }
 
@@ -164,6 +172,7 @@ nav ul{
 
 .buttonCursos:hover{
     background-color: #5b9d94;
+    
 }
 
 
@@ -191,18 +200,38 @@ nav ul{
     align-items: center;
     background: #fff fixed no-repeat 50% 30%;
     background-size: cover;
-    background-image: url(../Images/img-transformamos.png)
-
+    background-image: url(../Images/img-transformamos.png);
+    
     
 }
 
 .imgTransformamos{
     max-width: 90%;
     height: auto;
+    animation: heart-pulse 2s infinite ease-out;  
     
     
-
 }
+
+
+
+
+
+@keyframes heart-pulse {
+    0% {
+      transform: scale(0.5); /* scaling to 0 */
+    }
+    50% {
+      transform: scale(1); /* increasing the size */
+    }
+    70% {
+      transform: scale(0.65); /* decreasing the size */
+    }
+    100% {
+      transform: scale(.5); /* seeting back to initial size */
+    }
+  }
+
 /* 
 .misionVision{
     width: 480px;
@@ -315,6 +344,7 @@ nav ul{
     align-items: center;
     justify-content: center;
     background-color: #78448f;
+    transition: background-color .3s;
     color: white;
     font-weight: 700;
     margin: auto;
@@ -322,6 +352,13 @@ nav ul{
     letter-spacing: 3px;
     border-radius: 15px;
 }
+
+.botonVerCurso:hover{
+    background-color: #5b9d94;
+}
+
+
+
 
 @media screen and (max-width: 320px) {
     .caja{
@@ -352,10 +389,10 @@ nav ul{
     letter-spacing: 1px;
     line-height: 2rem;
     gap: 2rem;
-
     
-
 }
+
+
 
 .defensoria img{
     max-width: 100%;
@@ -403,6 +440,7 @@ nav ul{
     align-items: center;
     justify-content: center;
     background-color: #78448f;
+    transition: background-color .3s;
     color: white;
     font-size: large;
     font-weight: 700;
@@ -414,10 +452,12 @@ nav ul{
 }
 
 
+.buttonAnotarme:hover{
+    
+    background-color: #df7c2b;
+} 
 
-/* .buttonAnotarme:hover{
-    background-color: #5b9d94;
-} */
+
 
 
 @media screen and (max-width: 320px) {
