@@ -13,9 +13,9 @@ body{
     width: 100%;
     font-family: 'Fira Sans', sans-serif;
     background-color: #f8f8f9;
-    display: flex;
+/*     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     
 }
 
@@ -226,7 +226,7 @@ nav ul{
 
 .nuestrosCursos{
     width: 100%;
-    min-height: 810px;
+    min-height: 700px;
     
     margin-top: auto;
     align-items: center;
