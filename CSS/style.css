@@ -80,6 +80,8 @@ h5{
 
 
 
+
+
 }
 
 
@@ -101,6 +103,33 @@ nav ul{
 
 li:hover{
     color: #5b9d94;
+}
+
+
+.bars{
+    display: none;
+    cursor: pointer;
+}
+.bars img{
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .bars{
+        display: block;
+    }
+    
+    ul li{
+        display: none;
+    }
+
+     .imageLogo img{
+        width: 150px;
+    }
+
+           
 }
 
 
@@ -630,6 +659,7 @@ footer{
 @media screen and (max-width: 768px) {
 
     .datosFooter{
+        
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -637,6 +667,12 @@ footer{
     } 
        
 }
+
+    .datosContacto ul li{
+        display: block;
+        
+        
+    }
 
 
 @media screen and (max-width: 320px) {
@@ -668,8 +704,8 @@ footer{
 /* Defensoría Digital */
 
 .imgDefensoria{
-
-    margin-top: 7rem;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
     text-align: center;
 }
 
@@ -684,138 +720,78 @@ footer{
 
 }
 
-.gridDefensoria{
-    margin-top: 6rem;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: .5fr 1fr .5fr .5fr;
-    grid-template-areas: 
-    "fraseDefensoria fraseDefensoria"
-    "videoLidia consulta"
-    "llamanos llamanos"
-    "footer footer";
-    gap: 1rem;
-}
-
-@media screen and (max-width: 768px) {
-    .gridDefensoria{
-        grid-template-columns: 1fr;
-        grid-template-rows: .5fr 1fr 1fr .3fr .5fr;
-        grid-template-areas: 
-        "fraseDefensoria"
-        "videoLidia"
-        "consulta"
-        "llamanos"
-        "footer";
-    }
 
 
-    .llamanos{
-   
-        display: flex;
-        flex-direction: column;
 
-    }
-    .imgDefensoria{
-
-        margin-top: 6rem;
-        text-align: center;
-    }
-
-
-        
-}
-
-@media screen and (max-width: 320px) {
-    .gridDefensoria{
-        grid-template-columns: 1fr;
-        grid-template-rows: .5fr 1fr 1fr .3fr .5fr;
-        grid-template-areas: 
-        "fraseDefensoria"
-        "videoLidia"
-        "consulta"
-        "llamanos"
-        "footer";
-    }
-
-    .consulta p{
-        font-size: 1.8rem;
-    }
-
-    .consulta label{
-
-        font-size: 1.7rem;
-    }
-
-    .consulta input{
-  
-        font-size: 1.8rem;
-    }
-
-    .edad{
-        
-        font-size: 1.25rem;
-    }
-
-    .llamanos{
-        
-        display: flex;
-        flex-direction: column;
-        
-
-    }
-
-
-        
-}
 
 
 
 .fraseDefensoria{
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 2rem;
-    background-color: #78448f;
-    grid-area: fraseDefensoria;
+  
+    
+    
+    margin: auto;
+    padding: 2rem;
+    padding-left: 3rem;
+    max-width: 70%;
+    height: 420px;
+    background: url(../Images/seniors-def.png) , linear-gradient(268.06deg, #78448F -9.12%, #626DB5 48.25%, #5B9D94 102.31%);
+    background-size: cover;
+    border-radius: 15px;
+      
     
 }
 
 .fraseDefensoria p{
-    line-height: 4rem;
-    font-size: 1.7rem;
-    color: white;
-
-}
-
-.videoLidia{
-    max-width: 624px;
-    margin: auto;
-    padding: 1rem;
-    border-radius: 15px;
-    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
-    background-color: #f8ceec;
-    background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
     
-    line-height: 1.2rem;
-    grid-area: videoLidia;
+    line-height: 3rem;
+    font-size: 1.1rem; 
+    font-weight: 900;
+    color: white;
+    letter-spacing: .1rem;
 
 }
 
-.copyLidia{
+.resolve p{
+    margin-top: 1rem;
+    font-size: 2.5vw;
+}
+
+.contactanos p{
+    line-height: 7rem;
+    font-size: 4vw;
+    letter-spacing: 0.2rem;
+}
+
+.sosUna {
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.sosUna p{
+    font-size: 1.2rem;
+}
+.videoLidia{
+    margin: auto;
+    margin-top: -335px;
+    width: 70%;
+    margin-bottom: 80px;
+}
+
+
+.copyLidia p{
+    color: #78448f;
+    margin-top: 1rem;
+    
     font-weight: 800;
-    text-align: center;
+    
 }
 
 
 .videoLidia iframe{
-    margin: 1rem;
-   align-content: center;
+    
+   max-width: 60%;
    border-radius: 8px;
 }
 
@@ -825,25 +801,32 @@ footer{
     height: 24px;
 }
 
+.testiLidia p{
+    
+    
+    width: 350px;
+}
 
 .consulta{
-    grid-area: consulta;
-    height: auto;
-    padding: 1rem;
     
-
+    margin-left: 500px;
+    margin-top: -250px;
+    border-radius: 15px;
 
 }
 
 .formConsulta{
     margin: auto;
-    max-width: 510px;
+    max-width: 262px;
     line-height: 3rem;
     padding: 1rem;
     border-radius: 15px;
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
-    background-color: #b8c6db;
-    background-image: linear-gradient(315deg, #e8effa 0%, #f5f7fa 74%);
+    background: #FFFFFF;
+}
+
+.formConsulta textarea{
+    max-width: 230px;
 }
 
 .tituloForm{
@@ -855,34 +838,198 @@ footer{
 }
 
 label{
-    margin: .4rem;
+    margin-right: 5rem;
 }
 
 input{
-    margin: .5rem;
+    margin-top: -8rem;
 }
 
-.llamanos{
-    margin: auto;
-    display: flex;
-    grid-area: llamanos;
-    justify-content: space-evenly;
-    text-align: center;
-    align-content: center;
-    gap: 4rem;
+@media screen and (max-width: 768px) {
+
+    .contenedorDefensoria{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    } 
+
+    .fraseDefensoria{
+        text-align: center;
+        margin-bottom: 7%;
+    }
+
+    .fraseDefensoria p{
+    
+        line-height: 3rem;
+        font-size: 1.1rem; 
+        font-weight: 900;
+        color: white;
+        letter-spacing: .1rem;
+    
+    }
+    
+    .resolve p{
+        margin-top: 1rem;
+        font-size: 4vw;
+    }
+    
+    .contactanos p{
+        line-height: 7rem;
+        font-size: 6vw;
+        letter-spacing: 0.2rem;
+    }
+    
+    .sosUna p{
+        max-width: 100%;
+        font-size: 2.vw;
+    }
+    
+    .videoLidia{
+        margin: auto;
+        margin-top: -335px;
+        width: 70%;
+        margin-bottom: 80px;
+    }
+    
+    
+    .copyLidia p{
+        color: #78448f;
+        margin-top: 1rem;
+        text-align: center;
+        font-weight: 800;
+        
+    }
+
+    
+
+    .consulta{
+    
+        margin: auto;
+        border-radius: 15px;
+        margin-bottom: 7%;
+    
+    }
+
+    .videoLidia{
+
+        max-width: 100%;
+        margin: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+ 
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 7%;
+
+    }
+    
+    .videoLidia iframe{
+        margin: auto;
+        max-width: 100%;
+        border-radius: 8px;
+     }
+
+     .testiLidia p{
+         margin: auto;
+         text-align: center;
+     
+    }
+       
 }
 
-.textoLlamanos{
-    margin: auto;
-    width: 589px;
-    height: auto;
-    color: #78448f;
-    font-size: 2.7rem;
-    text-align: center;
-    font-weight: 800;
+@media screen and (max-width: 320px) {
 
+
+    .fraseDefensoria{
+        padding: .5rem
+        
+        
+    }
+
+    .fraseDefensoria p{
+        
+        line-height: 2rem;
+        font-size: 1.1rem; 
+        font-weight: 900;
+        color: white;
+        letter-spacing: .1rem;
+    
+    }
+    
+    .resolve p{
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+    
+    .contactanos p{
+        line-height: 7rem;
+        font-size: 1.5rem;
+        
+    }
+    
+    .sosUna p{
+        max-width: 100%;
+        font-size: 5.5vw;
+    }
+    
+    .videoLidia{
+        margin: auto;
+        margin-top: -335px;
+        width: 70%;
+        margin-bottom: 80px;
+    }
+    
+    
+    .copyLidia p{
+        color: #78448f;
+        margin-top: 1rem;
+        text-align: center;
+        font-weight: 800;
+        
+    }
+
+    
+
+    .consulta{
+    
+        margin: auto;
+        border-radius: 15px;
+        margin-bottom: 7%;
+    
+    }
+
+    .videoLidia{
+
+        max-width: 100%;
+        margin: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+ 
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 7%;
+
+    }
+    
+    .videoLidia iframe{
+        margin: auto;
+        max-width: 305px;
+        border-radius: 8px;
+     }
+
+     .testiLidia p{
+         width: 95%;
+         margin: auto;
+         text-align: center;
+     
+    }
+       
 }
 
-.imgLlamanos{
-    margin-top: auto;
-}
