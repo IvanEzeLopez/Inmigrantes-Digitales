@@ -208,12 +208,6 @@ li:hover{
 
 
 
-@media screen and (max-width: 768px) {
-/*     .imageSomos{
-        margin: 6rem;
-    } */
-       
-}
 
 
 
@@ -289,6 +283,7 @@ li:hover{
     gap: 1rem;
     margin: 1.3rem;
 
+
 }
 
 .cardsCursos p{
@@ -296,6 +291,7 @@ li:hover{
 /*     color: white; */
     font-weight: 600;
     letter-spacing: 1px;
+
 }
 
 .caja{
@@ -306,7 +302,18 @@ li:hover{
     border-radius: 20px;
     text-align: center;
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
+    animation: Slide_Up .7s ease;
+    
+}
 
+@keyframes Slide_Up {
+    0%{
+        transform: translateY(65px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
 }
 
 
@@ -552,6 +559,7 @@ li:hover{
     border-radius: 15px;
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
     background-color: white;
+    animation: Slide_Up .7s ease;
  
 
 }
@@ -748,6 +756,9 @@ footer{
     font-weight: 900;
     color: white;
     letter-spacing: .1rem;
+    text-shadow: 1.6px 0 0 rgb(0, 0, 0);
+    animation: Opacity_Defensoria 2.8s ;
+    
 
 }
 
@@ -769,6 +780,27 @@ footer{
 
 .sosUna p{
     font-size: 1.2rem;
+}
+
+
+@keyframes Opacity_Defensoria { 
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes Slide_Left_Defensoria {
+    0%{
+        transform: translateX(285px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
 }
 .videoLidia{
     margin: auto;
@@ -814,13 +846,7 @@ footer{
 }
 
 .formConsulta{
-/*     margin: auto;
-    max-width: 262px;
-    line-height: 3rem;
-    padding: 1rem;
-    border-radius: 15px;
-    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
-    background: #FFFFFF; */
+
 
     margin: auto;
     max-width: 300px;
@@ -829,6 +855,17 @@ footer{
     border-radius: 15px;
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
     background: #FFFFFF;
+    animation: Slide_Up_Defensoria 1.2s ease;
+}
+
+@keyframes Slide_Up_Defensoria {
+    0%{
+        transform: translateY(270px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
 }
 
 
@@ -841,6 +878,7 @@ footer{
     font-family: 'Rubik', sans-serif;
     outline: 0;
     transition: .4s;
+    margin-right: 5rem;
     
 }
 
@@ -877,9 +915,7 @@ footer{
 
 
 
-label{
-    margin-right: 5rem;
-}
+
 
 input{
     margin-top: -8rem;
@@ -903,6 +939,12 @@ input{
     border-radius: 15px;
     border: 0px;
 }
+
+.btnEnviar:hover{
+     
+    color: #5b9d94;
+} 
+
 
 @media screen and (max-width: 768px) {
 
@@ -968,6 +1010,7 @@ input{
         margin: auto;
         border-radius: 15px;
         margin-bottom: 7%;
+        
     
     }
 
