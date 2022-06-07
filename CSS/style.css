@@ -167,6 +167,8 @@ li:hover{
 
 .buttonCursos{
     cursor: pointer;
+    list-style: none;
+    text-decoration: none;
     max-width: 400px;
     height: 70px;
     display: flex;
@@ -182,6 +184,12 @@ li:hover{
     border-radius: 15px;
 
 
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
 }
 
 @media screen and (max-width: 320px) {
@@ -921,7 +929,9 @@ element.style {
 
 }
 
-
+textarea{
+    line-height: normal;
+    }
 
 
 
@@ -931,7 +941,7 @@ element.style {
 .btnEnviar input{
     cursor: pointer;
     width: auto;
-    padding: 1rem;
+    padding: 0rem 2rem;
     height: 55px;
     display: flex;
     align-items: center;
@@ -1147,3 +1157,11 @@ element.style {
        
 }
 
+/* NOSOTROS */
+
+
+.iframeNosotros{
+    
+    width: 300px;
+    height: auto;
+}
