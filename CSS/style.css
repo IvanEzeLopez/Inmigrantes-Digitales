@@ -63,9 +63,11 @@ h5{
     text-align: left;
 }
 
+p{
+    margin-bottom: 0px;
+}
 
-
-.navBar{
+.navbar{
     width: 100%;
     position: fixed;
     top: 0;
@@ -78,56 +80,46 @@ h5{
     box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.15);
     z-index: 7;
 
-
-
-
-
 }
 
 
 
-nav ul{
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
+.navbar li{
+    color: #78448f;
+    margin-left: 2rem;
 }
 
-.menu li{
-    text-align: center;
-    margin: 15px;
-    padding: 0.3rem;
+#navbarDropdownMenuLink{
+    color: #78448f;
 }
 
 li:hover{
     color: #5b9d94;
 }
 
+.dropdown-menu a{
+    color: #78448f;
+}
+.dropdown-menu li{
+    
+    margin-left: 0px;
+}
 
-.bars{
-    display: none;
-    cursor: pointer;
-}
-.bars img{
-    width: 20px;
-    height: 20px;
-}
+
 
 @media screen and (max-width: 768px) {
     
-    .bars{
-        display: block;
-    }
-    
-    ul li{
-        display: none;
-    }
 
-     .imageLogo img{
+
+     .container img{
         width: 150px;
     }
+
+    .navbar li{
+        margin-left: 2rem;
+        
+    }
+    
 
            
 }
@@ -340,6 +332,7 @@ li:hover{
     font-size: 1.06rem;
     justify-content: start;
     margin-top: .5rem;
+    align-items: center;
     
     
 
@@ -664,23 +657,38 @@ footer{
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-
-    .datosFooter{
-        
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        line-height: 2rem;
-    } 
-       
+.btn{
+    background-color: #78448f;
 }
 
-    .datosContacto ul li{
-        display: block;
+.btn:hover{
+    background-color: #5b9d94;
+}
+.row{
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 768px) {
+        .row{
+            justify-content: space-between;
+        }
         
         
+   
+    
     }
+
+
+
+element.style {
+}
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+
+
+
 
 
 @media screen and (max-width: 320px) {
@@ -895,6 +903,7 @@ footer{
     outline: 0;
     transition: .2s;
     margin-bottom: 1rem;
+    margin-top: -8rem;
    
 }
 
@@ -917,9 +926,7 @@ footer{
 
 
 
-input{
-    margin-top: -8rem;
-}
+
 
 .btnEnviar input{
     cursor: pointer;
