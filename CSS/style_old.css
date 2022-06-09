@@ -1,0 +1,1125 @@
+
+
+/* *{  margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    width: 100%;
+    background-color: #f8f8f9;
+    
+}
+
+header{
+    max-width: 100%;
+}
+
+main{
+    margin-top: 4rem;
+    max-width: 100%;
+}
+
+
+
+h1{  
+    
+    color: #78448f;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+
+
+}
+
+h3{
+    color: #78448f;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+h4{
+    text-align: center;
+    margin: 1rem;
+    font-size: large;
+    letter-spacing: 1px;
+
+}
+
+h5{
+    color: #78448f;
+    font-size: 2rem;
+    text-align: left;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.15);
+    z-index: 7;
+
+}
+
+
+
+.navbar li{
+    color: #78448f;
+    margin-left: 2rem;
+}
+
+#navbarDropdownMenuLink{
+    color: #78448f;
+}
+
+li:hover{
+    color: #5b9d94;
+}
+
+.dropdown-menu a{
+    color: #78448f;
+}
+.dropdown-menu li{
+    
+    margin-left: 0px;
+}
+
+ */
+
+@media screen and (max-width: 768px) {
+    
+
+
+     .container img{
+        width: 150px;
+    }
+
+    .navbar li{
+        margin-left: 2rem;
+        
+    }
+    
+
+           
+}
+
+
+/* SOMOS INMIGRANTES DIGITALES */
+
+
+/* 
+.imageSomos img{
+    margin-top: 4rem;
+    max-width: 100%;
+    height: auto;
+
+
+
+} */
+
+/* .buttonCursos{
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    max-width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #78448f;
+    transition: background-color .3s;
+    color: white;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 40px;
+    letter-spacing: 3px;
+    border-radius: 15px;
+
+
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+} */
+
+@media screen and (max-width: 320px) {
+    .buttonCursos{
+        max-width: 250px;
+
+    
+    }
+    }
+
+/* .buttonCursos:hover{
+    background-color: #5b9d94;
+    
+} */
+
+@media screen and (max-width: 320px) {
+    .buttonCursos{
+        max-width: 250px;
+
+    
+    }
+}
+
+
+
+
+
+
+
+
+/* .sectionTransformamos{
+    width: 100%;
+    min-height: 530px;
+    background-image: linear-gradient(to right,#5b9d94,#99e4db);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #fff fixed no-repeat 50% 30%;
+    background-size: cover;
+    background-image: url(../Images/img-transformamos.png);
+    
+    
+}
+
+.imgTransformamos{
+    max-width: 90%;
+    height: auto;
+
+    
+    
+} */
+
+
+
+
+
+
+/* 
+.misionVision{
+    width: 480px;
+    color: white;
+    
+}
+.misionVision img{
+   
+    align-items: center;
+    margin-left: 200px;
+}
+.misionVision p{
+    width: 480px;
+    text-align: justify;
+    margin-bottom: 25px;
+    font-size: large;
+}
+ */
+
+/*NUESTROS CURSOS */
+
+/* .nuestrosCursos{
+    width: 100%;
+    min-height: 700px; 
+    margin-top: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsCursos{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+    margin: 1.3rem;
+
+
+}
+
+.cardsCursos p{
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+} */
+
+/* .caja{
+    background-color: white;
+    width:355px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
+    animation: Slide_Up .7s ease;
+    
+}
+
+@keyframes Slide_Up {
+    0%{
+        transform: translateY(65px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+} */
+
+
+
+/* .imgCursos img{
+    margin-left: 2.5rem;
+    
+}
+
+ */
+
+/* .tituloCurso{
+    margin: 1rem;
+    font-weight: 700;
+    font-size: 1.17rem;
+    color: #78448f;
+}
+
+.tiempoCursos{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.06rem;
+    justify-content: start;
+    margin-top: .5rem;
+    align-items: center;   
+}
+
+.tiempoCursos p{
+    margin-left: 0.6rem;
+    font-weight: 300;
+    font-size: 1.15rem;
+    
+}
+
+.parrafoCursos p{
+    margin-top: 1rem;
+    width: auto;
+    text-align: start;
+    font-weight: 400;
+    
+} */
+
+/* .botonVerCurso{
+    cursor: pointer;
+    width: auto;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #78448f;
+    transition: background-color .3s;
+    color: white;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    border-radius: 15px;
+}
+
+.botonVerCurso:hover{
+    background-color: #5b9d94;
+}
+ */
+
+
+
+/* @media screen and (max-width: 320px) {
+    .caja{
+        
+        width: 280px;
+        
+   
+    
+    }
+
+}
+ */
+
+/* CENTRO DE CONTACTO PERSONALIZADO Y GRATUITO PARA PERSONAS MAYORES */
+
+/* .defensoria{
+    max-width: 100%;
+    min-height: 440px;
+    padding: 40px;
+    background: linear-gradient(268.06deg, #78448F -9.12%, #626DB5 48.25%, #5B9D94 102.31%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    gap: 2rem;
+    
+} */
+
+
+
+/* .defensoria img{
+    max-width: 100%;
+    align-items: center;
+}
+ */
+/* .textoDefensoria{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+} */
+
+/* .defP1{
+    margin-bottom: 1.7rem;
+    max-width: 657px;
+    height: auto;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    
+
+}
+
+.defP2{
+    max-width: 657px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.45rem;
+}
+
+.defP3{
+    max-width: 657px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.45rem;
+   
+}  */
+/* .buttonAnotarme{
+    cursor: pointer;
+    width: 250px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    transition: background-color .3s;
+    color: #78448f;
+    font-size: large;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 25px;
+    letter-spacing: 3px;
+    border-radius: 15px;
+
+} */
+
+
+/* .buttonAnotarme:hover{
+    
+    color: #5b9d94;
+}  */
+
+
+
+
+@media screen and (max-width: 320px) {
+
+    
+    .buttonAnotarme{
+        max-width: 250px;
+
+
+    
+    }
+
+
+
+/*     .defensoria{
+        width: 320;
+        gap: 2rem;
+    }
+
+    .defensoria img{
+        width: 300px;
+    }
+    .defP1{
+
+        
+        width: 100%;   
+        font-size: 2rem;
+        line-height: 3rem;
+        
+    }
+
+    .defP2{
+        width: 100%;   
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .defP3{
+
+        width: 100%;   
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+     */
+       
+}
+
+/* ELLOS YA GANARON AUTONOMÍA GRACIAS A INMIGRANTES DIGITALES*/
+
+
+/* .testimonios{
+    width: 100%;
+    min-height: 400px;
+    
+}
+
+
+.cardsTestimonios{
+    width: 88%;
+    margin: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+/* .cajaT{
+    width: 372px;
+    height: fit-content;
+    margin: 15px;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
+    background-color: white;
+    animation: Slide_Up .7s ease;
+ 
+
+} */
+
+/* .perfil{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 90%;
+    margin-left: 10px;
+    align-items: center; 
+
+
+
+} */
+
+/* .extracto{
+    padding: 15px;
+    width: auto;
+}
+
+.extracto img{
+    width: 27px;
+    height: 27px;
+   
+} */
+
+/* .titulosPerfil{
+    padding: 1rem;
+} */
+
+/* CONFIAN EN NOSOTROS*/
+
+
+.confian{
+    width: 100%;
+    min-height: 300px;
+    padding: 5px;
+}
+
+.confianLogos{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .confianLogos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    
+       
+}
+
+
+
+/* .footer{
+
+    min-width: 100%; 
+    padding: 15px;
+    background-image: linear-gradient(to right,#78448f, #9451b1);
+    color: white;
+
+
+
+}
+
+.datosFooter{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 1.5rem;
+}
+
+.tituloFooter{
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.copyright{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.btn{
+    background-color: #78448f;
+}
+
+.btn:hover{
+    background-color: #5b9d94;
+}
+.row{
+    justify-content: space-around;
+}
+ */
+
+/* @media screen and (max-width: 768px) {
+        .row{
+            justify-content: space-between;
+        }
+        
+        
+   
+    
+    } */
+
+
+
+
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    
+    .sectionTransformamos{
+        min-height: 300px;
+    }
+   
+    .imgTransformamos{
+        
+        max-width: 90%;
+        height: auto;
+        
+   
+    
+    }
+
+}
+
+
+
+/* .construccion{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+
+/* Defensoría Digital */
+
+/* .imgDefensoria{
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.tituloDefensoria{
+    width: 100%;
+    margin-top: 2rem;
+    color: #78448f;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+
+.fraseDefensoria{
+
+  
+    margin: auto;
+    padding: 2rem;
+    padding-left: 3rem;
+    max-width: 70%;
+    height: 420px;
+    background: url(../Images/seniors-def.png) , linear-gradient(268.06deg, #78448F -9.12%, #626DB5 48.25%, #5B9D94 102.31%);
+    background-size: cover;
+    border-radius: 15px;
+      
+    
+}
+
+.fraseDefensoria p{
+    
+    line-height: 3rem;
+    font-size: 1.1rem; 
+    font-weight: 900;
+    color: white;
+    letter-spacing: .1rem;
+    text-shadow: 1.6px 0 0 rgb(0, 0, 0);
+    animation: Opacity_Defensoria 2.8s ;
+    
+
+}
+
+.resolve p{
+    margin-top: 1rem;
+    font-size: 2.5vw;
+}
+
+.contactanos p{
+    line-height: 7rem;
+    font-size: 4vw;
+    letter-spacing: 0.2rem;
+}
+
+.sosUna {
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.sosUna p{
+    font-size: 1.2rem;
+} */
+
+
+/* @keyframes Opacity_Defensoria { 
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  } */
+
+
+/* .videoLidia{
+    margin: auto;
+    margin-top: -375px;
+    width: 70%;
+    margin-bottom: 80px;
+}
+
+
+.copyLidia p{
+    color: #78448f;
+    margin-top: 1rem;
+    font-weight: 800;
+    
+}
+
+
+.videoLidia iframe{
+    
+   max-width: 60%;
+   border-radius: 8px;
+}
+
+.videoLidia img{
+    margin-top: .5rem;
+    width: 24px;
+    height: 24px;
+}
+
+.testiLidia p{
+    
+    
+    width: 350px;
+}
+ */
+/* .consulta{
+    
+    margin-left: 500px;
+    margin-top: -250px;
+    border-radius: 15px;
+
+}
+
+.formConsulta{
+
+
+    margin: auto;
+    max-width: 300px;
+    line-height: 3rem;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.20);
+    background: #FFFFFF;
+    animation: Slide_Up_Defensoria 1.2s ease;
+} */
+
+/* @keyframes Slide_Up_Defensoria {
+    0%{
+        transform: translateY(270px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+} */
+
+
+/* 
+#name{
+    height: 46px;
+    padding: 0 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    outline: 0;
+    transition: .4s;
+    margin-right: 5rem;
+    
+}
+
+#name:focus{
+    border-color: #78448F;
+  }
+
+#email{
+    height: 46px;
+    padding: 0 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    outline: 0;
+    transition: .2s;
+    margin-bottom: 1rem;
+    margin-top: -8rem;
+   
+}
+
+#email:focus{
+    border-color: #78448F;
+  }
+
+.tituloForm{
+    font-size: larger;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: .1rem;
+    color: #78448f;
+    
+
+} */
+
+textarea{
+    line-height: normal;
+    }
+
+
+
+
+
+
+.btnEnviar input{
+    cursor: pointer;
+    width: auto;
+    padding: 0rem 2rem;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #78448f;
+    transition: background-color .3s;
+    color: white;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    border-radius: 15px;
+    border: 0px;
+}
+
+.btnEnviar:hover{
+     
+    color: #5b9d94;
+} 
+
+
+@media screen and (max-width: 768px) {
+
+    .contenedorDefensoria{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    } 
+
+    .fraseDefensoria{
+        
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .fraseDefensoria p{
+    
+        line-height: 3rem;
+        font-size: 1.1rem; 
+        font-weight: 900;
+        color: white;
+        letter-spacing: .1rem;
+    
+    }
+    
+    .resolve p{
+        margin-top: 1rem;
+        font-size: 4vw;
+    }
+    
+    .contactanos p{
+        line-height: 7rem;
+        font-size: 6vw;
+        letter-spacing: 0.2rem;
+    }
+    
+    .sosUna p{
+        max-width: 100%;
+        font-size: 2.vw;
+    }
+    
+    .videoLidia{
+        margin: auto;
+        margin-top: -335px;
+        width: 70%;
+        margin-bottom: 80px;
+    }
+    
+    
+    .copyLidia p{
+        color: #78448f;
+        margin-top: 1rem;
+        text-align: center;
+        font-weight: 800;
+        
+    }
+
+    
+
+    .consulta{
+    
+        margin: auto;
+        border-radius: 15px;
+        margin-bottom: 7%;
+        
+    
+    }
+
+    .videoLidia{
+
+        max-width: 100%;
+        margin: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+ 
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 7%;
+
+    }
+    
+    .videoLidia iframe{
+        margin: auto;
+        max-width: 100%;
+        border-radius: 8px;
+     }
+
+     .testiLidia p{
+         margin: auto;
+         text-align: center;
+     
+    }
+       
+}
+
+@media screen and (max-width: 320px) {
+
+
+    .fraseDefensoria{
+        max-width: 90%;
+        padding: .5rem
+        
+        
+        
+        
+    }
+
+    .fraseDefensoria p{
+
+        margin-top: .5rem;
+        line-height: 2rem;
+        font-size: 1.1rem; 
+        font-weight: 900;
+        color: white;
+        letter-spacing: .1rem;
+    
+    }
+    
+    .resolve p{
+        margin-top: 1rem;
+        font-size: 1.4rem;
+    }
+    
+    .contactanos p{
+        line-height: 6rem;
+        font-size: 1.5rem;
+        
+    }
+    
+    .sosUna p{
+        max-width: 100%;
+        font-size: 5.5vw;
+    }
+    
+    .videoLidia{
+        margin: auto;
+        margin-top: -335px;
+        width: 70%;
+        margin-bottom: 80px;
+    }
+    
+    
+    .copyLidia p{
+        color: #78448f;
+        margin-top: 1rem;
+        text-align: center;
+        font-weight: 800;
+        
+    }
+
+    
+
+    .consulta{
+        
+        margin: auto;
+        border-radius: 15px;
+        margin-bottom: 10%;
+    
+    }
+
+    .videoLidia{
+
+        max-width: 100%;
+        margin: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+ 
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10%;
+
+    }
+    
+    .videoLidia iframe{
+        margin: auto;
+        max-width: 305px;
+        border-radius: 8px;
+     }
+
+     .testiLidia p{
+         width: 95%;
+         margin: auto;
+         text-align: center;
+     
+    }
+       
+}
+
+/* NOSOTROS */
+
+
+.iframeNosotros{
+    
+    width: 300px;
+    height: auto;
+}

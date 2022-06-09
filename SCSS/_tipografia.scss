@@ -1,0 +1,39 @@
+$violeta-ID:#78448f;
+$verde-ID:#5b9d94;
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1{  
+    
+    color: $violeta-ID;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3{
+    color: $violeta-ID;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+h4{
+    text-align: center;
+    margin: 1rem;
+    font-size: large;
+    letter-spacing: 1px;
+
+}
+
+h5{
+    color: $violeta-ID;
+    font-size: 2rem;
+    text-align: left;
+}
+
+p{
+    margin-bottom: 0px;
+}
