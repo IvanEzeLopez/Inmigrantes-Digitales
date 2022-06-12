@@ -5,18 +5,22 @@ h1 {
   color: #78448f;
   font-size: 2.3rem;
   text-align: center;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-weight: 900; }
 
 h3 {
+  margin-top: 1.4rem;
   color: #78448f;
   font-size: 2.5rem;
-  text-align: center; }
+  text-align: center;
+  font-weight: 600; }
 
 h4 {
   text-align: center;
   margin: 1rem;
-  font-size: large;
-  letter-spacing: 1px; }
+  font-size: 2.3rem;
+  letter-spacing: 1px;
+  font-weight: 600; }
 
 h5 {
   color: #78448f;
@@ -78,7 +82,9 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   font-size: 20px;
-  gap: 5%; }
+  gap: 8%;
+  padding-top: 2rem;
+  padding-bottom: 6rem; }
   .sectionSomos .textoSomos {
     margin-top: 6rem; }
     .sectionSomos .textoSomos p {
@@ -111,7 +117,9 @@ main {
   .sectionSomos img {
     margin-top: 4rem;
     max-width: 100%;
-    height: auto; }
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.17); }
 
 .sectionTransformamos {
   width: 100%;
@@ -225,7 +233,9 @@ main {
   gap: 2rem; }
   .defensoria img {
     max-width: 100%;
-    align-items: center; }
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.17); }
   .defensoria .textoDefensoria {
     max-width: 100%;
     display: flex;
@@ -532,3 +542,99 @@ main {
     max-width: 80%;
     margin: auto;
     text-align: center; } }
+
+.nosotros {
+  background-color: white;
+  padding: .5rem; }
+
+.tituloNosotros {
+  margin-top: 4rem; }
+
+.sectionNosotros {
+  max-width: 100%;
+  min-height: 510px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 20px;
+  gap: 8%;
+  align-items: center; }
+  .sectionNosotros p {
+    text-align: center;
+    max-width: 500px;
+    max-height: 252px; }
+    .sectionNosotros p strong {
+      color: #5b9d94; }
+  .sectionNosotros iframe {
+    text-align: center;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.3); }
+
+@media screen and (max-width: 320px) {
+  .sectionNosotros {
+    min-height: 650px; } }
+
+.sectionMisionVision {
+  width: 100%;
+  padding: 1rem;
+  color: white;
+  background-image: linear-gradient(268.06deg, #78448F -9.12%, #626DB5 48.25%, #5B9D94 102.31%);
+  min-height: 430px; }
+  .sectionMisionVision .misionVision {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    min-height: 430px; }
+  .sectionMisionVision p {
+    max-width: 480px;
+    font-size: 1.2rem; }
+
+.carouselNosotros {
+  margin: auto;
+  width: 50vw;
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
+
+.carousel-inner {
+  border-radius: 15px;
+  box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.3); }
+
+@media screen and (max-width: 768px) {
+  .sectionMisionVision {
+    padding: 1.7rem; }
+  .mision {
+    margin-bottom: 3rem; }
+  .carouselNosotros {
+    width: 85vw; } }
+
+.nuestroEquipo {
+  background-color: white;
+  padding: 1rem; }
+
+.containerEquipo {
+  min-height: 700px;
+  display: flex; }
+
+.sectionEquipo {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 60px; }
+
+.perfilEquipo {
+  text-align: center; }
+  .perfilEquipo .equipoNombre {
+    margin-top: .5rem; }
+    .perfilEquipo .equipoNombre p {
+      font-weight: 600; }
+
+@media screen and (max-width: 768px) {
+  .sectionEquipo {
+    margin-top: 2rem;
+    gap: 15px; } }
