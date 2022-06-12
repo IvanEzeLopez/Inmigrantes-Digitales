@@ -638,3 +638,74 @@ main {
   .sectionEquipo {
     margin-top: 2rem;
     gap: 15px; } }
+
+.cursosID {
+  padding-top: 4rem;
+  background-color: white; }
+
+.introCursos {
+  margin: auto;
+  text-align: center;
+  width: 45%; }
+  .introCursos p {
+    font-size: 1.5rem; }
+
+@media screen and (max-width: 768px) {
+  .introCursos {
+    width: 80%; } }
+
+.containerCurso {
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
+
+.flexCurso {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .flexCurso .txtCurso {
+    width: auto; }
+    .flexCurso .txtCurso h2 {
+      color: #78448f;
+      font-weight: 600;
+      font-size: 3.4rem;
+      max-width: 350px; }
+    .flexCurso .txtCurso p {
+      max-width: 500px; }
+    .flexCurso .txtCurso .buttonCurso {
+      cursor: pointer;
+      list-style: none;
+      text-decoration: none;
+      max-width: 400px;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #78448f;
+      transition: background-color .3s;
+      color: white;
+      font-weight: 700;
+      margin-top: 40px;
+      letter-spacing: 3px;
+      border-radius: 15px; }
+    .flexCurso .txtCurso .buttonCurso:hover {
+      background-color: #5b9d94; }
+  .flexCurso .imagenCurso {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.17);
+    padding: 1.5rem; }
+    .flexCurso .imagenCurso img {
+      max-width: 500px; }
+
+.containerCursoblo {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: white; }
+
+@media screen and (max-width: 768px) {
+  .imagenCurso {
+    margin-top: 3rem; }
+    .imagenCurso img {
+      width: 80vw; } }
