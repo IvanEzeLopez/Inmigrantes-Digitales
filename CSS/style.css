@@ -350,6 +350,9 @@ main {
   margin-right: auto;
   width: 50%; }
 
+.contenedorDefensoria {
+  margin-top: 8rem; }
+
 .fraseDefensoria {
   margin: auto;
   padding: 2rem;
@@ -483,7 +486,8 @@ main {
   margin-bottom: 80px; }
   .videoLidia iframe {
     max-width: 60%;
-    border-radius: 8px; }
+    border-radius: 8px;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.3); }
   .videoLidia img {
     margin-top: .5rem;
     width: 24px;
@@ -709,3 +713,168 @@ main {
     margin-top: 3rem; }
     .imagenCurso img {
       width: 80vw; } }
+
+.containerContacto {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  line-height: 3rem;
+  min-height: 675px; }
+  .containerContacto .infoContacto {
+    text-align: center; }
+  .containerContacto .tituloContacto {
+    margin-top: -5rem;
+    margin-bottom: 1.2rem;
+    font-size: 5.4rem;
+    font-weight: 600;
+    color: #78448f; }
+  .containerContacto .imgCorreoEmail {
+    display: flex;
+    gap: 1rem;
+    align-items: center; }
+  .containerContacto .imgtelefonoNumero {
+    display: flex;
+    gap: 1rem;
+    align-items: center; }
+  .containerContacto .mandanosLlamanos {
+    font-weight: 600;
+    font-size: 1.3rem; }
+  .containerContacto .IDemail {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: start;
+    margin-left: 3.6rem; }
+  .containerContacto .numero {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: start;
+    margin-left: 3.6rem; }
+  .containerContacto .redes {
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: start;
+    margin-left: 3.6rem; }
+  .containerContacto .iconosRedes {
+    text-align: start;
+    margin-left: 3.6rem; }
+  .containerContacto .icoRedes {
+    margin-right: .7rem; }
+  .containerContacto .escribinos {
+    border-radius: 15px; }
+    .containerContacto .escribinos .formEscribinos {
+      margin: auto;
+      max-width: 310px;
+      line-height: 3rem;
+      padding: 1rem;
+      border-radius: 15px;
+      box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.2);
+      background: #FFFFFF; }
+      .containerContacto .escribinos .formEscribinos .tituloForm {
+        font-size: larger;
+        text-align: center;
+        font-weight: 900;
+        letter-spacing: .1rem;
+        color: #78448f; }
+      .containerContacto .escribinos .formEscribinos #name {
+        /* max-width: 100%; */
+        height: 46px;
+        padding: 0 16px;
+        border: 2px solid #ddd;
+        border-radius: 4px;
+        font-family: 'Rubik', sans-serif;
+        outline: 0;
+        transition: .4s;
+        margin-right: 5rem; }
+        .containerContacto .escribinos .formEscribinos #name:focus {
+          border-color: #78448f; }
+      .containerContacto .escribinos .formEscribinos #email {
+        /*  max-width: 100%; */
+        height: 46px;
+        padding: 0 16px;
+        border: 2px solid #ddd;
+        border-radius: 4px;
+        font-family: 'Rubik', sans-serif;
+        outline: 0;
+        transition: .4s;
+        margin-right: 5rem; }
+        .containerContacto .escribinos .formEscribinos #email:focus {
+          border-color: #78448f; }
+      .containerContacto .escribinos .formEscribinos textarea {
+        line-height: normal;
+        /* max-width: 100%; */ }
+      .containerContacto .escribinos .formEscribinos .input {
+        cursor: pointer;
+        width: auto;
+        padding: 0rem 2rem;
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #78448f;
+        transition: background-color .3s;
+        color: white;
+        font-weight: 700;
+        margin: auto;
+        margin-top: 20px;
+        letter-spacing: 3px;
+        border-radius: 15px;
+        border: 0px; }
+        .containerContacto .escribinos .formEscribinos .input:hover {
+          background-color: #5b9d94; }
+
+.encontranosEn {
+  text-align: center; }
+  .encontranosEn p {
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 1rem; }
+
+.mapa {
+  display: flex;
+  justify-content: center; }
+  .mapa iframe {
+    border-radius: 15px;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.2); }
+
+@media screen and (max-width: 768px) {
+  .infoContacto {
+    max-width: 70%; }
+  .containerContacto {
+    margin-top: 13rem;
+    gap: 40px;
+    margin-bottom: 2.6rem;
+    line-height: 2.5rem; }
+    .containerContacto .tituloContacto {
+      margin-top: -5rem;
+      margin-bottom: 1.2rem;
+      font-size: 11vw;
+      font-weight: 600;
+      color: #78448f; }
+    .containerContacto .imgCorreoEmail {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      align-items: center; }
+    .containerContacto .IDemail {
+      font-weight: 600;
+      font-size: 1rem;
+      text-align: center;
+      margin-left: 0px; }
+    .containerContacto .imgtelefonoNumero {
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      margin-left: 0px; }
+    .containerContacto .numero {
+      margin-left: 0px;
+      text-align: center; }
+    .containerContacto .redes {
+      font-size: 1.2rem;
+      margin-left: 0px;
+      text-align: center; }
+    .containerContacto .iconosRedes {
+      margin-left: 0px;
+      text-align: center; } }
