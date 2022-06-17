@@ -1,5 +1,6 @@
 $violeta-ID:#78448f;
 $verde-ID:#5b9d94;
+$blanco-ID:#eff8f7;
 $gradiente-ID:linear-gradient(268.06deg, #78448F -9.12%, #626DB5 48.25%, #5B9D94 102.31%);
 @import "tipografia";
 
@@ -72,6 +73,24 @@ main{
     max-width: 100%;
 }
 
+@mixin boton ($violeta-ID, $blanco-ID){
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    max-width: 400px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $violeta-ID;
+    transition: background-color .3s;
+    color: $blanco-ID;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 40px;
+    letter-spacing: 3px;
+    border-radius: 15px;
+}
 
 .sectionSomos{
     max-width: 100%;
@@ -111,8 +130,13 @@ main{
             letter-spacing: 3px;
             border-radius: 15px;
            
+           
 
         }
+
+
+
+
         a{
             text-decoration: none;
             color: transparent;
@@ -229,20 +253,19 @@ main{
             }
 
             .botonVerCurso{
-                cursor: pointer;
-                width: auto;
-                height: 55px;
-                display: flex;
+
+            @extend .btn; 
                 align-items: center;
-                justify-content: center;
-                background-color: $violeta-ID;
-                transition: background-color .3s;
-                color: white;
-                font-weight: 700;
+                color: white;  
+                border-radius: 15px; 
                 margin: auto;
-                margin-top: 20px;
-                letter-spacing: 3px;
-                border-radius: 15px;
+                padding: .5rem;
+                letter-spacing: 3px
+              
+                
+
+                
+
             }
 
             .botonVerCurso:hover{
@@ -334,21 +357,9 @@ main{
         } 
 
         .buttonAnotarme{
-            cursor: pointer;
-            width: 250px;
-            height: 70px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: white;
-            transition: background-color .3s;
-            color: #78448f;
-            font-size: large;
-            font-weight: 700;
-            margin: auto;
-            margin-top: 25px;
-            letter-spacing: 3px;
-            border-radius: 15px;
+
+            padding: 1rem;
+            @include boton($blanco-ID, $violeta-ID)
         
         }
         .buttonAnotarme:hover{
@@ -380,6 +391,7 @@ main{
         align-items: center;
 
         .cajaT{
+            
             width: 372px;
             height: fit-content;
             margin: 15px;

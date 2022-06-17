@@ -191,20 +191,12 @@ main {
         text-align: start;
         font-weight: 400; }
       .nuestrosCursos .cardsCursos .caja .botonVerCurso {
-        cursor: pointer;
-        width: auto;
-        height: 55px;
-        display: flex;
         align-items: center;
-        justify-content: center;
-        background-color: #78448f;
-        transition: background-color .3s;
         color: white;
-        font-weight: 700;
+        border-radius: 15px;
         margin: auto;
-        margin-top: 20px;
-        letter-spacing: 3px;
-        border-radius: 15px; }
+        padding: .5rem;
+        letter-spacing: 3px; }
       .nuestrosCursos .cardsCursos .caja .botonVerCurso:hover {
         background-color: #5b9d94; }
       @media screen and (max-width: 320px) {
@@ -260,19 +252,21 @@ main {
       font-weight: 600;
       font-size: 1.45rem; }
     .defensoria .textoDefensoria .buttonAnotarme {
+      padding: 1rem;
       cursor: pointer;
-      width: 250px;
+      list-style: none;
+      text-decoration: none;
+      max-width: 400px;
       height: 70px;
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: white;
+      background-color: #eff8f7;
       transition: background-color .3s;
       color: #78448f;
-      font-size: large;
       font-weight: 700;
       margin: auto;
-      margin-top: 25px;
+      margin-top: 40px;
       letter-spacing: 3px;
       border-radius: 15px; }
     .defensoria .textoDefensoria .buttonAnotarme:hover {
@@ -331,10 +325,10 @@ main {
     margin-top: 100px;
     text-align: center; }
 
-.btn {
+.btn, .nuestrosCursos .cardsCursos .caja .botonVerCurso {
   background-color: #78448f; }
 
-.btn:hover {
+.btn:hover, .nuestrosCursos .cardsCursos .caja .botonVerCurso:hover {
   background-color: #5b9d94; }
 
 .row {
