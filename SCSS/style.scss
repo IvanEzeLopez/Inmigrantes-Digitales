@@ -248,6 +248,7 @@ main{
             .textoCursos{
                 margin-top: 1rem;
                 width: auto;
+                min-height: 170px;
                 text-align: start;
                 font-weight: 400;
             }
@@ -418,6 +419,10 @@ main{
                     width: 27px;
                     height: 27px;
                    
+                }
+
+                p{
+                    min-height: 192px;
                 }
             }
 
@@ -695,11 +700,15 @@ main{
             color: #78448f;
             margin-top: 1rem;
             font-weight: 800;
+            font-size: 1.5rem;
          }
      }
      .testimonioL{
-        width: 350px;
+        max-width: 480px;
+        font-size: 1.6rem;
      }
+
+
 
 }   
 @media screen and (max-width: 768px) {
@@ -708,6 +717,20 @@ main{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        .fraseDefensoria{
+            text-align: center;
+            margin-bottom: 10%;
+            padding: 1rem;
+            max-width: 90%;
+            min-height: 420px;
+            p{
+                line-height: 3rem;
+                font-size: 3.9vw;
+                font-weight: 900;
+                letter-spacing: .1rem;
+
+            }
+        }
 
     } 
 
@@ -781,6 +804,118 @@ main{
    }
 
 }    
+
+.containerDllamanos{
+    margin: auto;
+    max-width: 70%;
+    padding: 2rem;
+    background-color: $verde-ID;
+    color: white;
+    border-radius: 15px;
+    min-height: 100px;
+    font-size: 3rem;
+    
+    .contactate{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        word-break: break-all;
+        
+    }
+    .masInfo{
+        font-size: 2rem;
+        
+    }
+    .defWa{
+        display: flex;
+        align-items: center;
+        img{
+            width: 32px;
+            height: 32px;
+            margin-right: 1rem;
+        }
+        .numWa{
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            
+        }
+    }
+    .defCorreo{
+        display: flex;
+        align-items: center;
+        img{
+            width: 32px;
+            height: 32px;
+            margin-right: 1rem;
+        }
+        
+        .defEmail{
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            word-break: break-all;
+            
+        }
+    
+    }
+
+
+
+
+    
+}
+
+@media screen and (max-width: 768px) {
+
+     
+            
+    .containerDllamanos{
+        max-width: 95%;
+        font-size: 1.3rem;
+        .masInfo{
+            font-size: 1rem;
+            
+        }
+        .defWa{
+            display: flex;
+            align-items: center;
+            img{
+                width: 24px;
+                height: 24px;
+                margin-right: 1rem;
+            }
+            .numWa{
+                font-size: 1.2rem;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                
+            }
+        }
+        .defCorreo{
+            display: flex;
+            align-items: center;
+            img{
+                width: 24px;
+                height: 24px;
+                margin-right: 1rem;
+            }
+            
+            .defEmail{
+                font-size: 1.1rem;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                word-break: break-all;
+                
+            }
+        
+        }
+
+    
+    }
+
+
+
+}  
+
 
 .nosotros{
     background-color: white;
@@ -983,6 +1118,7 @@ main{
     justify-content: space-evenly;
     .txtCurso{
         width: auto;
+        
         h2{
             color: $violeta-ID;
             font-weight: 600;
@@ -991,6 +1127,7 @@ main{
         }
         p{
             max-width: 500px;
+            min-height: 150px;
         }
         .buttonCurso{
             cursor: pointer;

@@ -188,6 +188,7 @@ main {
       .nuestrosCursos .cardsCursos .caja .textoCursos {
         margin-top: 1rem;
         width: auto;
+        min-height: 170px;
         text-align: start;
         font-weight: 400; }
       .nuestrosCursos .cardsCursos .caja .botonVerCurso {
@@ -307,6 +308,8 @@ main {
         .testimonios .cardsTestimonios .cajaT .extracto img {
           width: 27px;
           height: 27px; }
+        .testimonios .cardsTestimonios .cajaT .extracto p {
+          min-height: 192px; }
       .testimonios .cardsTestimonios .cajaT .titulosPerfil {
         padding: 1rem; }
 
@@ -491,15 +494,28 @@ main {
     .videoLidia .copyLidia p {
       color: #78448f;
       margin-top: 1rem;
-      font-weight: 800; }
+      font-weight: 800;
+      font-size: 1.5rem; }
   .videoLidia .testimonioL {
-    width: 350px; }
+    max-width: 480px;
+    font-size: 1.6rem; }
 
 @media screen and (max-width: 768px) {
   .contenedorDefensoria {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; }
+    .contenedorDefensoria .fraseDefensoria {
+      text-align: center;
+      margin-bottom: 10%;
+      padding: 1rem;
+      max-width: 90%;
+      min-height: 420px; }
+      .contenedorDefensoria .fraseDefensoria p {
+        line-height: 3rem;
+        font-size: 3.9vw;
+        font-weight: 900;
+        letter-spacing: .1rem; }
   .videoLidia {
     margin: auto;
     margin-top: -335px;
@@ -540,6 +556,74 @@ main {
     max-width: 80%;
     margin: auto;
     text-align: center; } }
+
+.containerDllamanos {
+  margin: auto;
+  max-width: 70%;
+  padding: 2rem;
+  background-color: #5b9d94;
+  color: white;
+  border-radius: 15px;
+  min-height: 100px;
+  font-size: 3rem; }
+  .containerDllamanos .contactate {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-break: break-all; }
+  .containerDllamanos .masInfo {
+    font-size: 2rem; }
+  .containerDllamanos .defWa {
+    display: flex;
+    align-items: center; }
+    .containerDllamanos .defWa img {
+      width: 32px;
+      height: 32px;
+      margin-right: 1rem; }
+    .containerDllamanos .defWa .numWa {
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: .1rem; }
+  .containerDllamanos .defCorreo {
+    display: flex;
+    align-items: center; }
+    .containerDllamanos .defCorreo img {
+      width: 32px;
+      height: 32px;
+      margin-right: 1rem; }
+    .containerDllamanos .defCorreo .defEmail {
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: .1rem;
+      word-break: break-all; }
+
+@media screen and (max-width: 768px) {
+  .containerDllamanos {
+    max-width: 95%;
+    font-size: 1.3rem; }
+    .containerDllamanos .masInfo {
+      font-size: 1rem; }
+    .containerDllamanos .defWa {
+      display: flex;
+      align-items: center; }
+      .containerDllamanos .defWa img {
+        width: 24px;
+        height: 24px;
+        margin-right: 1rem; }
+      .containerDllamanos .defWa .numWa {
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: .1rem; }
+    .containerDllamanos .defCorreo {
+      display: flex;
+      align-items: center; }
+      .containerDllamanos .defCorreo img {
+        width: 24px;
+        height: 24px;
+        margin-right: 1rem; }
+      .containerDllamanos .defCorreo .defEmail {
+        font-size: 1.1rem;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        word-break: break-all; } }
 
 .nosotros {
   background-color: white;
@@ -668,7 +752,8 @@ main {
       font-size: 3.4rem;
       max-width: 350px; }
     .flexCurso .txtCurso p {
-      max-width: 500px; }
+      max-width: 500px;
+      min-height: 150px; }
     .flexCurso .txtCurso .buttonCurso {
       cursor: pointer;
       list-style: none;

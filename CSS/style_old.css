@@ -934,6 +934,7 @@ textarea{
         
         text-align: center;
         margin-bottom: 10%;
+
     }
 
     .fraseDefensoria p{
@@ -959,7 +960,7 @@ textarea{
     
     .sosUna p{
         max-width: 100%;
-        font-size: 2.vw;
+        font-size: 2vw;
     }
     
     .videoLidia{
