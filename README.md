@@ -1,0 +1,4 @@
+ En el archivo index.html sumé el SEO con las siguientes características: <br>
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio por ejemplo: “Una ONG que trabaja generando un doble impacto: Promovemos la reducción de la brecha digital, capacitamos a las personas que aún no hacen pleno uso de la tecnología y creamos oportunidades económicas para las personas con discapacidad que son nuestro staff de instructores" <br>
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio por ejemplo: "cursos, instructores, discapacidad, talleres"<br>
+Encabezado: para el encabezado del h1 utilicé los nombres de las secciones principales del sitio.
