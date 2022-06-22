@@ -782,8 +782,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly; }
   .flexCurso .txtCurso {
-    width: auto;
-    margin: auto; }
+    width: auto; }
     .flexCurso .txtCurso h2 {
       color: #78448f;
       font-weight: 600;
