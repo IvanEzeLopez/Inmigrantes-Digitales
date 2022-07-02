@@ -1,4 +1,6 @@
- En el archivo index.html sumé el SEO con las siguientes características: <br>
-Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio por ejemplo: “Una ONG que trabaja generando un doble impacto: Promovemos la reducción de la brecha digital, capacitamos a las personas que aún no hacen pleno uso de la tecnología y creamos oportunidades económicas para las personas con discapacidad que son nuestro staff de instructores" <br>
-Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio por ejemplo: "cursos, instructores, discapacidad, talleres"<br>
-Encabezado: para el encabezado del h1 utilicé los nombres de las secciones principales del sitio.
+ Hola! Te doy la bienvenida a mi proyecto del curso de desarrollo web de Coderhouse. <br>
+Mi nombre es Iván, trabajo en una empresa que se llama Inmigrantes Digitales, la empresa contrata a personas con discapacidad para ser instructores sobre el uso de herramientas digitales básicas para las personas que más les cuesta el tema, yo soy uno de los instructores. Me gustaría poder algún día poder rediseñar y desarrollar la página qué está un poco abandonada. <br>
+
+
+¡Saludos!<br>
+Iván López
