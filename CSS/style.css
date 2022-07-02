@@ -610,6 +610,8 @@ footer {
     margin: auto;
     border-radius: 15px;
     margin-bottom: 7%; }
+    .consulta textarea {
+      width: 90%; }
   .videoLidia {
     max-width: 100%;
     margin: auto;
