@@ -791,8 +791,8 @@ footer {
 
         textarea {
             line-height: normal;
-            /* max-width: 100%; */
-
+            width: 200px;
+            height: 250px;
         }
 
         .input {
@@ -1408,7 +1408,7 @@ footer {
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 576px) {
 
 
 
@@ -1658,8 +1658,8 @@ footer {
 
             textarea {
                 line-height: normal;
-                
-
+                width: 230px;
+                height: 250px;
             }
 
             .input {

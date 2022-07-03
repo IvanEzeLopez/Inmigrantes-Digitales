@@ -527,7 +527,8 @@ footer {
         border-color: #78448f; }
     .consulta .formConsulta textarea {
       line-height: normal;
-      /* max-width: 100%; */ }
+      width: 200px;
+      height: 250px; }
     .consulta .formConsulta .input {
       cursor: pointer;
       width: auto;
@@ -610,8 +611,6 @@ footer {
     margin: auto;
     border-radius: 15px;
     margin-bottom: 7%; }
-    .consulta textarea {
-      width: 90%; }
   .videoLidia {
     max-width: 100%;
     margin: auto;
@@ -888,7 +887,7 @@ footer {
     .modal-content img {
       width: 515px; } }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 576px) {
   .modal-content {
     width: 298px; }
     .modal-content img {
@@ -1046,7 +1045,9 @@ footer {
         .containerContacto .escribinos .formEscribinos #email:focus {
           border-color: #78448f; }
       .containerContacto .escribinos .formEscribinos textarea {
-        line-height: normal; }
+        line-height: normal;
+        width: 230px;
+        height: 250px; }
       .containerContacto .escribinos .formEscribinos .input {
         cursor: pointer;
         width: auto;
